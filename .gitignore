@@ -1,4 +1,5 @@
 node_modules/
+dist/
 artifacts/lucas-advisory/node_modules/
 artifacts/lucas-advisory/dist/
 *.tsbuildinfo

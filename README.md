@@ -23,7 +23,7 @@ corepack pnpm build
 corepack pnpm preview
 ```
 
-O build estático é gerado em `artifacts/lucas-advisory/dist`.
+O build estático é gerado em `dist` na raiz do projeto, como esperado pela configuração da Vercel.
 
 ## Deploy na Vercel
 
