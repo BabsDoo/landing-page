@@ -1,0 +1,15 @@
+{
+  "name": "lucas-advisory-site",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "corepack pnpm --filter @workspace/lucas-advisory dev",
+    "build": "corepack pnpm --filter @workspace/lucas-advisory build",
+    "preview": "corepack pnpm --filter @workspace/lucas-advisory serve",
+    "typecheck": "corepack pnpm --filter @workspace/lucas-advisory typecheck"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3"
+  }
+}

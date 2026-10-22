@@ -1,0 +1,6 @@
+node_modules/
+artifacts/lucas-advisory/node_modules/
+artifacts/lucas-advisory/dist/
+*.tsbuildinfo
+.DS_Store
+Thumbs.db

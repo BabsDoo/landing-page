@@ -1,0 +1,10 @@
+{
+  "buildCommand": "corepack pnpm --filter @workspace/lucas-advisory build",
+  "outputDirectory": "artifacts/lucas-advisory/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
